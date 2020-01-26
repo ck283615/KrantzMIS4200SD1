@@ -15,14 +15,14 @@ namespace KrantzMIS4200.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "A little bit about Cameron.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Cameron's contact info.";
 
             return View();
         }
